@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WCManifest Package="info.mabin.wce.componentexam3">
+  <ComponentName>ExamWebComponent3</ComponentName>
+  <UseManagerVersion>1</UseManagerVersion>
+  <EventListenerClasses>
+  	<EventListenerClass>info.mabin.wce.supportlibrary.EventListener</EventListenerClass>
+  </EventListenerClasses>
+  <VersionCode>1</VersionCode>
+  <VersionName>0.1.0</VersionName>
+</WCManifest>

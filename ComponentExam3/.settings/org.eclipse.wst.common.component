@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ComponentExam3">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="ComponentExam1Icm.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/ComponentExam1Icm/ComponentExam1Icm">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SupportLibrary.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/SupportLibrary/SupportLibrary">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/ComponentExam3/build/classes"/>
+        <property name="context-root" value="ComponentExam3"/>
+    </wb-module>
+</project-modules>
